@@ -1,0 +1,14 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "meta": {"tag": [{"system": "https://example.invalid/provenance", "code": "synthetic-demo"}]},
+  "entry": [
+    {"resource": {"resourceType": "Workspace", "id": "workspace-demo", "name": [{"family": "Example", "given": ["Alex"]}]}},
+    {"resource": {"resourceType": "Guide", "id": "guide-deploy-001", "status": "final", "subject": {"reference": "Workspace/workspace-demo"}, "effectiveDateTime": "2025-01-10T09:00:00Z", "code": {"text": "Primary deployment window"}, "valueQuantity": {"value": 128, "unit": "minutes"}}},
+    {"resource": {"resourceType": "Guide", "id": "guide-uptime-001", "status": "final", "subject": {"reference": "Workspace/workspace-demo"}, "effectiveDateTime": "2025-02-12T10:30:00Z", "code": {"text": "Service uptime"}, "valueQuantity": {"value": 5.4, "unit": "%"}}},
+    {"resource": {"resourceType": "Policy", "id": "policy-access-001", "subject": {"reference": "Workspace/workspace-demo"}, "recordedDate": "2024-06-01T00:00:00Z", "knowledgeStatus": {"coding": [{"code": "active"}]}, "code": {"text": "Repository access policy"}}},
+    {"resource": {"resourceType": "Note", "id": "note-review-001", "status": "finished", "subject": {"reference": "Workspace/workspace-demo"}, "period": {"start": "2025-02-12T10:00:00Z"}, "code": {"text": "Quarterly operations review"}}}
+  ]
+}
+
+
