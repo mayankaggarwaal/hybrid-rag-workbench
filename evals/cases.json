@@ -1,0 +1,7 @@
+[
+  {"workspace_id": "workspace-demo", "question": "What deployment window evidence is present?", "expected_document": "guide-deploy-001"},
+  {"workspace_id": "workspace-demo", "question": "What uptime result is recorded?", "expected_document": "guide-uptime-001"},
+  {"workspace_id": "unknown", "question": "Summarize procedures", "expect_insufficient": true}
+]
+
+
